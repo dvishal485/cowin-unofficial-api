@@ -12,7 +12,7 @@ Currently, it only supports searching by pincode.
 
 URL : `https://cowin-api.vercel.app/api/pincode?p=<pincode>`
 
-Example : `https://cowin-api.vercel.app/api/pincode?p=110094`
+Example : [https://cowin-api.vercel.app/api/pincode?p=110051](https://cowin-api.vercel.app/api/pincode?p=110051)
 
 You will get JSON response containing
   - Center Name
@@ -21,6 +21,8 @@ You will get JSON response containing
     - From the current date upto next 7 days
     - Dose count / NA / Booked
   - Error (if any)
+
+If pincode is not mentioned or is invalid, it will default to `110051`
 
 ### Sample Response
 
