@@ -1,0 +1,23 @@
+{
+  "name": "cowin-unofficial-api",
+  "version": "1.0.0",
+  "description": "Real time cowin api extracted from cowin.gov.in",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "keywords": [
+    "cowin",
+    "cowin-unofficial-api",
+    "cowin-api",
+    "api",
+    "real-time",
+    "vaccine"
+  ],
+  "author": "Vishal Das <dvishal485@gmail.com>",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "playwright-aws-lambda": "^0.7.0",
+    "playwright-core": "^1.11.1"
+  }
+}
