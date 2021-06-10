@@ -65,7 +65,7 @@ exports.handler = async function(event, context) {
       await browser.close()
       return {
         statusCode: 200,
-        body: {result}
+        body: JSON.stringify({result})
     };
     }
 }
