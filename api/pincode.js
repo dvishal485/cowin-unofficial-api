@@ -21,12 +21,8 @@ export default async (req, res) => {
     })
     const page = await context.newPage()
     await page.route('**/*.{png,svg,jpg,jpeg,woff2,css}', route => route.abort());
-    console.log('browser loaded')
     try {
-        await page.goto('https://www.cowin.gov.in/')
-        console.log('cowin website loaded')
-        // await (await page.$('xpath=//*[@id="mat-tab-label-0-1"]')).click()
-        // console.log('button clicked')
+        await page.goto('https://www.cowin.gov.in/home')
         var field = await page.waitForSelector('//*[@id="mat-input-0"]')
         await field.type(pincode)
         console.log('pincode filled')
@@ -35,11 +31,9 @@ export default async (req, res) => {
         console.log('Search button clicked')
         var centerBox = await page.waitForSelector('div.mobile-hide')
         var center = await centerBox.$$('div[class="row ng-star-inserted"]')
-        console.log('center loaded')
-        console.log('Number of center : ' + center.length)
+        console.log('Number of centers : ' + center.length)
         if (center.length !== 0) {
             var i, k;
-            // availability-date
             result.push({ "error": false })
             for (i = 0; i < center.length; i++) {
                 var name = await center[i].$('h5[class="center-name-title"]')
@@ -60,18 +54,15 @@ export default async (req, res) => {
                 })
             }
             result.push(resultData)
-            await browser.close()
-            res.status(200).send({ result })
-
         } else {
-            await browser.close()
             result.push({
                 "error": true, "message": "no vaccine center available in this pincode"
             })
-            res.status(200).send({ result })
         }
     } catch (e) {
         result.push({ "error": true, "message": e.message })
-        res.status(200).send({ result })
+    }finally{
+      await browser.close()
+      res.status(200).send({ result })
     }
 }
