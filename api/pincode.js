@@ -47,7 +47,7 @@ export default async (req, res) => {
                     centerList.push(c)
                 }
                 var centerName = await page.evaluate(el => el.textContent, name)
-                var centerAddress = await page.evaluate(el => el.textContent, address)
+                //var centerAddress = await page.evaluate(el => el.textContent, address)
                 resultData.push({
                     "center_name": centerName,
                     //"center_address": centerAddress,
