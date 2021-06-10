@@ -16,10 +16,10 @@ exports.handler = async function(event, context) {
         handleSIGTERM: false,
         handleSIGHUP: false
     })
-    const context = await browser.newContext({
+    const conxt = await browser.newContext({
         userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 OPR/68.0.3618.125'
     })
-    const page = await context.newPage()
+    const page = await conxt.newPage()
     await page.route('**/*.{png,svg,jpg,jpeg,woff2,css}', route => route.abort());
     try {
         await page.goto('https://www.cowin.gov.in/home')
