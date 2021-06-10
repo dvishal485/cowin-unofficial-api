@@ -37,8 +37,7 @@ export default async (req, res) => {
             result.push({ "error": false })
             for (i = 0; i < center.length; i++) {
                 var name = await center[i].$('h5[class="center-name-title"]')
-                //TEMPORARY FIX FOR TIMEOUT ERROR
-                //var address = await center[i].$('p[class="center-name-text"]')
+                var address = await center[i].$('p[class="center-name-text"]')
                 var ul = await center[i].$('ul[class="slot-available-wrap"]')
                 var li = await ul.$$('li')
                 var centerList = []
@@ -47,10 +46,10 @@ export default async (req, res) => {
                     centerList.push(c)
                 }
                 var centerName = await page.evaluate(el => el.textContent, name)
-                //var centerAddress = await page.evaluate(el => el.textContent, address)
+                var centerAddress = await page.evaluate(el => el.textContent, address)
                 resultData.push({
                     "center_name": centerName,
-                    //"center_address": centerAddress,
+                    "center_address": centerAddress,
                     "sessions": centerList
                 })
             }

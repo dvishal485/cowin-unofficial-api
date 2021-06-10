@@ -24,6 +24,9 @@ You will get JSON response containing
 
 If pincode is not mentioned or is invalid, it will default to `110051`
 
+### Limitations
+Due to limitations on runtime in Vercel (`10s`), API may result to runtime error if overused. I recommend deploying your own API and using it to a max limit of 1 call per minute.
+
 ### Sample Response
 
 ```json
