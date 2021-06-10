@@ -4,7 +4,7 @@ exports.handler = async function(event, context) {
     var browser = null
     var result = []
     var resultData = []
-    const { query } = req
+    const { query } = event
     
     var pincode = query.p
     if (pincode === undefined) {
