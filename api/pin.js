@@ -8,7 +8,7 @@ exports.handler = async function(event, context) {
     
   //  var pincode = query.p
  //   if (pincode === undefined) {
-      var  pincode = '110051'
+      var  pincode = '110094'
 //    }
     var browser = await playwright.launchChromium({
         headless: true,
