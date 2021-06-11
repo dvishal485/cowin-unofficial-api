@@ -53,7 +53,7 @@ Limitations
 Due to limitations on runtime in Vercel (`10s`), API may result to runtime error if overused. I recommend deploying your own API and using it to a max limit of 2 calls per minute with filter applied.
 
 ### Note
-Currently, `covaxin` filter is enabled as a seperate Version 1 API link as well but will be removed in future, using the default [filter](#filter) feature in Version 2 API is recommended.
+Currently, `covaxin` filter is enabled as a seperate [Version 1 API link](https://cowin-api.vercel.app/api/covaxin?p=110094) as well but will be removed in future, using the default [filter](#filter) feature in Version 2 API is recommended.
 
 ## Sample Response
 

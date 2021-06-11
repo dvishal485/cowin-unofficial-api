@@ -1,0 +1,798 @@
+{
+    "result": [
+        [
+            {
+                "center_name": "GBSSS Old Mustafabad S3",
+                "center_address": "Mustafabad Gali No. 20 Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "1",
+                        "second_dose": "0"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GGSSS Sonia Vihar 4.5 Pusta S4",
+                "center_address": "Sonia Vihar 4.5 Pusta Near Shani Bazar Chowk Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "EDMC Pri Sch Rajiv Nagar-II S3",
+                "center_address": "Rajiv Nagar-II 64-E Shri Ram Colony North East Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GGSSS Tukhmeerpur S3",
+                "center_address": "Tukhmirpur Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "1",
+                        "second_dose": "0"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GGSSS Tukhmeerpur S4",
+                "center_address": "Tukhmirpur Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GGSSS Sonia Vihar 4.5 Pusta S1",
+                "center_address": "Sonia Vihar 4.5 Pusta Near Shani Bazar Chowk Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GBSSS Old Mustafabad S4",
+                "center_address": "Mustafabad Gali No.19 Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GGSSS Tukhmeerpur S2",
+                "center_address": "Tukhmirpur Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "EDMC PBV Sabhapur Gujran S2",
+                "center_address": "Sabhapur Gujran 61-E Karawal Nagar West North East Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GBSSS Old Mustafabad S2",
+                "center_address": "Mustafabad Gali No.19 Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GGSSS Tukhmeerpur S1",
+                "center_address": "Tukhmirpur Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "EDMC PBV Sabhapur Gujran S4",
+                "center_address": "Sabhapur Gujran 61-E Karawal Nagar West North East Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "EDMC Pri Sch Rajiv Nagar-II S4",
+                "center_address": "Rajiv Nagar-II 64-E Shri Ram Colony North East Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "1",
+                        "second_dose": "0"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "EDMC Pri Sch Rajiv Nagar-II S2",
+                "center_address": "Rajiv Nagar-II 64-E Shri Ram Colony North East Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "2",
+                        "second_dose": "0"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "EDMC PBV Sabhapur Gujran S1",
+                "center_address": "Sabhapur Gujran 61-E Karawal Nagar West North East Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "EDMC Pri Sch Rajiv Nagar-II S1",
+                "center_address": "Rajiv Nagar-II 64-E Shri Ram Colony North East Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GBSSS Old Mustafabad S1",
+                "center_address": "Mustafabad Gali No.19 Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "EDMC PBV Sabhapur Gujran S3",
+                "center_address": "Sabhapur Gujran 61-E Karawal Nagar West North East Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GGSSS Sonia Vihar 4.5 Pusta S3",
+                "center_address": "Sonia Vihar 4.5 Pusta Near Shani Bazar Chowk Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GGSSS Sonia Vihar 4.5 Pusta S2",
+                "center_address": "Sonia Vihar 4.5 Pusta Near Shani Bazar Chowk Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covishield",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    }
+                ]
+            },
+            {
+                "center_name": "GBSSS Khajoori Khas S4",
+                "center_address": "Khajuri Khas Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covaxin",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    }
+                ]
+            },
+            {
+                "center_name": "GBSSS Khajoori Khas S3",
+                "center_address": "Khajuri Khas Delhi, North East Delhi, Delhi, 110094",
+                "vaccine": "covaxin",
+                "age": "18+",
+                "sessions": [
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "Not Avaliable",
+                        "second_dose": "Not Avaliable"
+                    },
+                    {
+                        "first_dose": "BOOKED",
+                        "second_dose": "BOOKED"
+                    }
+                ]
+            }
+        ]
+    ]
+}
