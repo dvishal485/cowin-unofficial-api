@@ -27,7 +27,7 @@ If pincode is not mentioned or is invalid, it will default to `110051`
 <h2 id="filter">
 Filter
 </h2>
-You can always filter out the results according to you from the basic pincode API, but sometimes the result may be long and hence may cause runtime error (See [Limitations](#limitations)). Hence it is advisable to filter out the result directly on server side by using `filters`.
+You can always filter out the results according to you from the basic pincode API, but sometimes the result may be long and hence may cause runtime error ( See [Limitations](#limitations) ). Hence it is advisable to filter out the result directly on server side by using `filters`.
 
 Usage : `https://cowin-api.vercel.app/api/pincode?p=<pincode>&f=<filter>`
 
