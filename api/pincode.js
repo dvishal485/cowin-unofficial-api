@@ -90,7 +90,9 @@ export default async (req, res) => {
             })
         }
     } catch (e) {
-        result.push({ "error": true, "message": e.message })
+        var errm = (e.message).toString()
+        if (errm.lastIndexOf('Timeout 1000ms exceeded') !== -1) { errm = 'no vaccine center available in this pincode' }
+        result.push({ "error": true, "message": errm })
     } finally {
         await browser.close()
         res.status(200).send({ result })
