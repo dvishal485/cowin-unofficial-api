@@ -32,7 +32,7 @@ export default async (req, res) => {
         var centerBox = await page.waitForSelector('div.mobile-hide')
         var covaxinButton = await centerBox.waitForSelector('div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > label:nth-child(2)')
         await covaxinButton.click()
-        await centerBox.waitForSelector('div[class="row ng-star-inserted"]')
+        await centerBox.waitForSelector('div[class="row ng-star-inserted"]', { timeout: 1000 })
         var center = await centerBox.$$('div[class="row ng-star-inserted"]')
         console.log('Number of centers : ' + center.length)
         if (center.length !== 0) {

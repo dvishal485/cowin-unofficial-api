@@ -12,29 +12,29 @@ export default async (req, res) => {
         pincode = '110051'
     }
     var fil = -1
-   switch(filter){
-     case('covaxin'):
-       fil = 4
-       break;
-     case('covishield'):
-       fil = 3
-       break;
-      case('sputnik'):
-        fil = 5
-        break;
-       case('18'):
-         fil=1
-         break;
-       case('45'):
-         fil=2
-         break;
-       case('free'):
-         fil=6
-         break;
-      case('paid'):
-        fil=7
-        break;
-   }
+    switch (filter) {
+        case ('covaxin'):
+            fil = 4
+            break;
+        case ('covishield'):
+            fil = 3
+            break;
+        case ('sputnik'):
+            fil = 5
+            break;
+        case ('18'):
+            fil = 1
+            break;
+        case ('45'):
+            fil = 2
+            break;
+        case ('free'):
+            fil = 6
+            break;
+        case ('paid'):
+            fil = 7
+            break;
+    }
     var browser = await playwright.launchChromium({
         headless: true,
         handleSIGINT: false,
@@ -55,11 +55,11 @@ export default async (req, res) => {
         await srchBtn.click()
         console.log('Search button clicked')
         var centerBox = await page.waitForSelector('div.mobile-hide')
-        if(fil!==-1){
-        var filterButton = await centerBox.waitForSelector('div:nth-child(1) > div:nth-child(1) > div:nth-child('+fil+') > label:nth-child(2)')
-        await filterButton.click()
+        if (fil !== -1) {
+            var filterButton = await centerBox.waitForSelector('div:nth-child(1) > div:nth-child(1) > div:nth-child(' + fil + ') > label:nth-child(2)')
+            await filterButton.click()
         }
-        await centerBox.waitForSelector('div[class="row ng-star-inserted"]')
+        await centerBox.waitForSelector('div[class="row ng-star-inserted"]', { timeout: 1000 })
         var center = await centerBox.$$('div[class="row ng-star-inserted"]')
         console.log('Number of centers : ' + center.length)
         if (center.length !== 0) {
