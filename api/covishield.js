@@ -30,8 +30,9 @@ export default async (req, res) => {
         await srchBtn.click()
         console.log('Search button clicked')
         var centerBox = await page.waitForSelector('div.mobile-hide')
-        var covaxinButton = await centerBox.waitForSelector('div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > label:nth-child(2)')
-        await covaxinButton.click()
+        var covishieldButton = await centerBox.waitForSelector('div:nth-child(1) > div:nth-child(1) > div:nth-child(3) > label:nth-child(2)')
+        await covishieldButton.click()
+          await centerBox.waitForSelector('div[class="row ng-star-inserted"]')
         var center = await centerBox.$$('div[class="row ng-star-inserted"]')
         console.log('Number of centers : ' + center.length)
         if (center.length !== 0) {
