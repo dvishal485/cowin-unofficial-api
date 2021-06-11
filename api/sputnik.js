@@ -1,25 +1,25 @@
 const playwright = require("playwright-aws-lambda")
 
-exports.handler = async function(event, context) {
+export default async (req, res) => {
     var browser = null
     var result = []
     var resultData = []
-    const { query } = event
-    
-  //  var pincode = query.p
- //   if (pincode === undefined) {
-      var  pincode = '110094'
-//    }
+    const { query } = req
+    res.setHeader("Content-Type", "application/json")
+    var pincode = query.p
+    if (pincode === undefined) {
+        pincode = '110051'
+    }
     var browser = await playwright.launchChromium({
         headless: true,
         handleSIGINT: false,
         handleSIGTERM: false,
         handleSIGHUP: false
     })
-    const conxt = await browser.newContext({
+    const context = await browser.newContext({
         userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.97 Safari/537.36 OPR/68.0.3618.125'
     })
-    const page = await conxt.newPage()
+    const page = await context.newPage()
     await page.route('**/*.{png,svg,jpg,jpeg,woff2,css}', route => route.abort());
     try {
         await page.goto('https://www.cowin.gov.in/home')
@@ -30,9 +30,11 @@ exports.handler = async function(event, context) {
         await srchBtn.click()
         console.log('Search button clicked')
         var centerBox = await page.waitForSelector('div.mobile-hide')
+        var covaxinButton = await centerBox.waitForSelector('div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > label:nth-child(2)')
+        await covaxinButton.click()
         var center = await centerBox.$$('div[class="row ng-star-inserted"]')
         console.log('Number of centers : ' + center.length)
-        if (center.length > 0) {
+        if (center.length !== 0) {
             var i, k;
             result.push({ "error": false })
             for (i = 0; i < center.length; i++) {
@@ -61,11 +63,8 @@ exports.handler = async function(event, context) {
         }
     } catch (e) {
         result.push({ "error": true, "message": e.message })
-    }finally{
-      await browser.close()
-      return {
-        statusCode: 200,
-        body: JSON.stringify({result})
-    };
+    } finally {
+        await browser.close()
+        res.status(200).send({ result })
     }
 }
