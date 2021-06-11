@@ -10,16 +10,20 @@ I don't encourage any wrong practice with the API or it's knowledge. It's for ed
 
 It only supports searching by pincode.
 
-Usage : `https://cowin-api.vercel.app/api/pincode?p=<pincode>`
+Introducing CoWIN API V2! Now you the data will be in a much more organized manner with much data. For V1 Documentation, [visit here](V1.md)
 
-Example : [https://cowin-api.vercel.app/api/pincode?p=110051](https://cowin-api.vercel.app/api/pincode?p=110051)
+Usage : `https://cowin-api.vercel.app/api/v2?p=<pincode>`
+
+Example : [https://cowin-api.vercel.app/api/v2?p=110051](https://cowin-api.vercel.app/api/v2?p=110051)
 
 You will get JSON response containing
   - Center Name
   - Center Address
-  - Vaccine Slots Sessions
-    - From the current date upto next 7 days
-    - Dose count / NA / Booked
+  - Vaccine Name
+  - Age Limit (`18` or `45+`)
+  - Vaccine Slots Sessions (from the current date upto next 7 days)
+  - Vaccine Avalibility Status
+  - Individual Dose Count
   - Error (if any)
 
 If pincode is not mentioned or is invalid, it will default to `110051`
@@ -29,9 +33,9 @@ Filter
 </h2>
 You can always filter out the results according to you from the basic pincode API, but sometimes the result may be long and hence may cause runtime error (<a href="#limitations">Check out Limitations</a>) . Hence it is advisable to filter out the result directly on server side by using `filters`.
 
-Usage : `https://cowin-api.vercel.app/api/pincode?p=<pincode>&f=<filter>`
+Usage : `https://cowin-api.vercel.app/api/v2?p=<pincode>&f=<filter>`
 
-Example : [https://cowin-api.vercel.app/api/pincode?p=110094&f=covaxin](https://cowin-api.vercel.app/api/pincode?p=110094&f=covaxin)
+Example : [https://cowin-api.vercel.app/api/v2?p=110094&f=covaxin](https://cowin-api.vercel.app/api/v2?p=110094&f=covaxin)
 
 Supported Filters :
 
@@ -49,96 +53,8 @@ Limitations
 Due to limitations on runtime in Vercel (`10s`), API may result to runtime error if overused. I recommend deploying your own API and using it to a max limit of 2 calls per minute with filter applied.
 
 ### Note
-Currently, `covaxin` filter is enabled as a seperate API link as well but will be removed in future, using the default [filter](#filter) feature is recommended.
+Currently, `covaxin` filter is enabled as a seperate Version 1 API link as well but will be removed in future, using the default [filter](#filter) feature in Version 2 API is recommended.
 
-### Sample Response
+## Sample Response
 
-```json
-{
-  "result": [
-    {
-      "error": false
-    },
-    [
-      {
-        "center_name": " MCW Anarkali PHC ",
-        "center_address": " INDRA PARK GALI NO-8 SOM BAZAR NR. CHANDER NAGAR BUS STAND DELHI-51, East Delhi, Delhi, 110051 ",
-        "sessions": [
-          " NA ",
-          " Booked  COVAXIN  Age 45+",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA "
-        ]
-      },
-      {
-        "center_name": " RSK Vidyalaya W ChanderNagar-1 ",
-        "center_address": " Chander Nagar Road Krishna Nagar Extension Near Reliance Fresh Delhi, East Delhi, Delhi, 110051 ",
-        "sessions": [
-          " NA ",
-          " Booked  COVAXIN  Age 18+",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA "
-        ]
-      },
-      {
-        "center_name": " RSK Vidyalaya W ChanderNagar-2 ",
-        "center_address": " Chander Nagar Road Krishna Nagar Extension Near Reliance Fresh Delhi, East Delhi, Delhi, 110051 ",
-        "sessions": [
-          " NA ",
-          " Booked  COVAXIN  Age 18+",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA "
-        ]
-      },
-      {
-        "center_name": " RSK Vidyalaya W ChanderNagar-3 ",
-        "center_address": " Chander Nagar Road Krishna Nagar Extension Near Reliance Fresh Delhi, East Delhi, Delhi, 110051 ",
-        "sessions": [
-          " NA ",
-          " Booked  COVAXIN  Age 18+",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA "
-        ]
-      },
-      {
-        "center_name": " RSK Vidyalaya W ChanderNagar-4 ",
-        "center_address": " Chander Nagar Road Krishna Nagar Extension Near Reliance Fresh Delhi, East Delhi, Delhi, 110051 ",
-        "sessions": [
-          " NA ",
-          " Booked  COVAXIN  Age 18+",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA "
-        ]
-      },
-      {
-        "center_name": " SKV Radhey Shyam Park ",
-        "center_address": " SKV Radhey Shyam Park Parwana Road Khurenji Delhi - 110051, East Delhi, Delhi, 110051 ",
-        "sessions": [
-          " NA ",
-          "D1 26  46 D2 20  COVISHIELD Age 45+",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA ",
-          " NA "
-        ]
-      }
-    ]
-  ]
-}
-```
+[Tap here](sample.json) to check out sample response
