@@ -10,7 +10,7 @@ I don't encourage any wrong practice with the API or it's knowledge. It's for ed
 
 Currently, it only supports searching by pincode.
 
-URL : `https://cowin-api.vercel.app/api/pincode?p=<pincode>`
+Usage : `https://cowin-api.vercel.app/api/pincode?p=<pincode>`
 
 Example : [https://cowin-api.vercel.app/api/pincode?p=110051](https://cowin-api.vercel.app/api/pincode?p=110051)
 
@@ -24,8 +24,34 @@ You will get JSON response containing
 
 If pincode is not mentioned or is invalid, it will default to `110051`
 
-### Limitations
-Due to limitations on runtime in Vercel (`10s`), API may result to runtime error if overused. I recommend deploying your own API and using it to a max limit of 1 call per minute.
+<h2 id="filter">
+Filter
+</h2>
+You can always filter out the results according to you from the basic pincode API, but sometimes the result may be long and hence may cause runtime error (See [Limitations](#limitations)). Hence it is advisable to filter out the result directly on server side by using `filters`.
+
+Usage : `https://cowin-api.vercel.app/api/pincode?p=<pincode>&f=<filter>`
+
+Example : [https://cowin-api.vercel.app/api/pincode?p=110094&f=covaxin](https://cowin-api.vercel.app/api/pincode?p=110094&f=covaxin)
+
+Supported Filters :
+
+```
+covaxin : Returns results with only Covaxin
+covishield : Returns results with only Covishield
+sputnik : Returns results with only Sputnik V
+18 : Returns vaccine data only for Age 18-44
+45 : Returns vaccine data only for Age 45+
+free : Returns only free vaccine data
+paid : Returns only paid vaccine data
+```
+
+<h2 id="limitations">
+Limitations
+</h2>
+Due to limitations on runtime in Vercel (`10s`), API may result to runtime error if overused. I recommend deploying your own API and using it to a max limit of 2 calls per minute with filter applied.
+
+### Note
+Currently, `covaxin` filter is enabled as a seperate API link as well but will be removed in future, using the default [filter](#filter) feature is recommended.
 
 ### Sample Response
 
