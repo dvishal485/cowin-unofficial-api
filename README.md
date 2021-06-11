@@ -8,7 +8,7 @@ I don't encourage any wrong practice with the API or it's knowledge. It's for ed
 
 ## API Usage
 
-Currently, it only supports searching by pincode.
+It only supports searching by pincode.
 
 Usage : `https://cowin-api.vercel.app/api/pincode?p=<pincode>`
 
@@ -27,7 +27,7 @@ If pincode is not mentioned or is invalid, it will default to `110051`
 <h2 id="filter">
 Filter
 </h2>
-You can always filter out the results according to you from the basic pincode API, but sometimes the result may be long and hence may cause runtime error ( See [Limitations](#limitations) ). Hence it is advisable to filter out the result directly on server side by using `filters`.
+You can always filter out the results according to you from the basic pincode API, but sometimes the result may be long and hence may cause runtime error (<a href="#limitations">Check out Limitations</a>) . Hence it is advisable to filter out the result directly on server side by using `filters`.
 
 Usage : `https://cowin-api.vercel.app/api/pincode?p=<pincode>&f=<filter>`
 
@@ -35,15 +35,13 @@ Example : [https://cowin-api.vercel.app/api/pincode?p=110094&f=covaxin](https://
 
 Supported Filters :
 
-```
-covaxin : Returns results with only Covaxin
-covishield : Returns results with only Covishield
-sputnik : Returns results with only Sputnik V
-18 : Returns vaccine data only for Age 18-44
-45 : Returns vaccine data only for Age 45+
-free : Returns only free vaccine data
-paid : Returns only paid vaccine data
-```
+  - `covaxin` : Returns results with only Covaxin
+  - `covishield` : Returns results with only Covishield
+  - `sputnik` : Returns results with only Sputnik V
+  - `18` : Returns vaccine data only for Age 18-44
+  - `45` : Returns vaccine data only for Age 45+
+  - `free` : Returns only free vaccine data
+  - `paid` : Returns only paid vaccine data
 
 <h2 id="limitations">
 Limitations
