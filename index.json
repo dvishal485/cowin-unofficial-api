@@ -3,7 +3,9 @@
     "developer": "Vishal Das <dvishal485@gmail.com>",
     "purpose": "Educational Project",
     "description": "Real time cowin api extracted from cowin.gov.in",
+    "repository": "https://github.com/dvishal485/cowin-unofficial-api",
     "api_usage": {
-        "search_via_pincode": "https://cowin-api-dvishal485.vercel.app/api/pincode?p=110051"
+        "search_via_pincode": "https://cowin-api-dvishal485.vercel.app/api/v2?p=110051",
+        "search_with_filter": "https://cowin-api-dvishal485.vercel.app/api/v2?p=110051&f=covaxin"
     }
 }
