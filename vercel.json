@@ -1,0 +1,12 @@
+{
+    "redirects": [
+        {
+            "source": "/api",
+            "destination": "/api/v2"
+        },
+        {
+            "source": "/v2",
+            "destination": "/api/v2"
+        }
+    ]
+}

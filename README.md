@@ -1,5 +1,12 @@
 # CoWIN Unofficial API
+
 Real time CoWIN API extracted from [cowin.gov.in](https://www.cowin.gov.in/) (Educational purpose only)
+![CoWIN Unofficial API Banner](banner.png)
+
+![GitHub issues](https://img.shields.io/github/issues/dvishal485/cowin-unofficial-api)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/dvishal485/cowin-unofficial-api)
+![GitHub](https://img.shields.io/github/license/dvishal485/cowin-unofficial-api)
+[![Telegram Chat](https://img.shields.io/badge/Telegram-chat-blue?logo=telegram&style=social)](https://t.me/dvishal485)
 
 ## About the Project
 CoWIN Official API is cached and hence is slow to get updates from. I faced problem due to this because in Vaccine Slot Notifiers, when I get the notification of slot, the vaccine is all booked by then. Hence I felt the need of a real time CoWIN API, that's why created this project.
@@ -8,7 +15,7 @@ I don't encourage any wrong practice with the API or it's knowledge. It's for ed
 
 ## API Usage
 
-It only supports searching by pincode.
+![note](https://img.shields.io/badge/note-only%20supports%20searching%20by%20pincode-green)
 
 Introducing CoWIN API V2! Now you the data will be in a much more organized manner with much data. For V1 Documentation, [visit here](V1.md)
 
