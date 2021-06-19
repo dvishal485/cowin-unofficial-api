@@ -1,6 +1,7 @@
 # CoWIN Unofficial API
 
 Real time CoWIN API extracted from [cowin.gov.in](https://www.cowin.gov.in/) (Educational purpose only)
+
 ![CoWIN Unofficial API Banner](banner.png)
 
 ![GitHub issues](https://img.shields.io/github/issues/dvishal485/cowin-unofficial-api)
@@ -17,7 +18,9 @@ I don't encourage any wrong practice with the API or it's knowledge. It's for ed
 
 ![note](https://img.shields.io/badge/note-only%20supports%20searching%20by%20pincode-green)
 
-Introducing CoWIN API V2! Now you the data will be in a much more organized manner with much data. For V1 Documentation, [visit here](V1.md)
+### Introducing CoWIN API Version 2.0
+
+Now you the data will be in a much more organized manner with much data. For V1 Documentation, [visit here](V1.md)
 
 Usage : `https://cowin-api.vercel.app/api/v2?p=<pincode>`
 
@@ -57,7 +60,7 @@ Supported Filters :
 <h2 id="limitations">
 Limitations
 </h2>
-Due to limitations on runtime in Vercel (`10s`), API may result to runtime error if overused. I recommend deploying your own API and using it to a max limit of 2 calls per minute with filter applied.
+Due to limitations on runtime in Vercel (10 seconds), API may result to runtime error if overused. I recommend deploying your own API and using it to a max limit of 2 calls per minute with filter applied.
 
 ### Note
 Currently, `covaxin` filter is enabled as a seperate [Version 1 API link](https://cowin-api.vercel.app/api/covaxin?p=110094) as well but will be removed in future, using the default [filter](#filter) feature in Version 2 API is recommended.
