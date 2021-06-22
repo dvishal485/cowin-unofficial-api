@@ -2,7 +2,7 @@
 
 Real time CoWIN API extracted from [cowin.gov.in](https://www.cowin.gov.in/) (Educational purpose only)
 
-![CoWIN Unofficial API Banner](cowin-banner.png)
+![CoWIN Unofficial API Banner](banner.jpg)
 
 ![GitHub issues](https://img.shields.io/github/issues/dvishal485/cowin-unofficial-api)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/dvishal485/cowin-unofficial-api)
