@@ -2,3 +2,4 @@
 node_modules
 api/district.js
 api/version2.js
+api/covaxin_old.js
